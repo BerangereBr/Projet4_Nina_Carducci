@@ -69,7 +69,6 @@ body {
 
 .picture img {
 	width: 100%;
-
 }
 #about-me {
 	flex: 2
@@ -91,7 +90,7 @@ body {
 }
 
 #gallery {
-	/* min-height: 100vh; */
+	min-height: 100vh;
 }
 .title{
 	text-align: center;
@@ -264,7 +263,6 @@ input[type="submit"] {
 @media all and (max-width: 1000px) {
 	#about{
 		flex-direction: column;
-
 	}
 	.picture {
 		width: 50%;
