@@ -118,6 +118,12 @@ body {
 	justify-content: center;
 }
 
+.nav-pills .nav-link.active-tag {
+	color: #fff;
+	background-color: #000;
+	border-radius: 0;
+}
+
 .nav-pills .nav-link.active,
 .nav-pills .show>.nav-link {
 	color: #fff;
@@ -126,7 +132,7 @@ body {
 }
 
 .nav-pills .nav-link {
-	color: #000
+	color: #000;
 }
 
 .item-column {
