@@ -313,6 +313,17 @@ input[type="submit"] {
 	font-size: 15px;
 }
 
+.picture-footer {
+	width: 60px;
+	height: 60px;
+}
+
+.picture-name-footer {
+	display: flex;
+	flex-direction: row;
+	gap: 10px;
+}
+
 @media all and (max-width: 1180px) {
 	.picture {
 		flex: 2;
@@ -403,6 +414,14 @@ input[type="submit"] {
 		padding-left: 10px;
 		padding-right: 10px;
 		background-color: #D8D3A8;
+	}
+}
+
+@media all and (max-width: 710px) {
+	.picture-name-footer {
+		display: flex;
+		flex-direction: column-reverse;
+		gap: 10px;
 	}
 }
 
