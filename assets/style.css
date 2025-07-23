@@ -127,15 +127,15 @@ body {
 }
 
 .nav-pills .nav-link.active-tag {
-	color: #fff;
-	background-color: #000;
+	color: black;
+	background-color: #BEB45A;
 	border-radius: 0;
 }
 
 .nav-pills .nav-link.active,
 .nav-pills .show>.nav-link {
-	color: #fff;
-	background-color: #000;
+	color: black;
+	background-color: #BEB45A;
 	border-radius: 0;
 }
 
@@ -232,6 +232,9 @@ body {
 	z-index: 1;
 }
 
+.service__price p {
+	font-size: 25px;
+}
 #contact {
 	margin: auto;
 	background-color: #D8D3A8;
